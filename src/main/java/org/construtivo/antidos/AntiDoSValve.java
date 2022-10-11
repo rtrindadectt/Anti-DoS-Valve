@@ -1,4 +1,4 @@
-package org.henbru.antidos;
+package org.construtivo.antidos;
 
 import java.io.IOException;
 import java.util.Map;
@@ -65,7 +65,7 @@ public class AntiDoSValve extends ValveBase {
 	 * This logger name is used by the valve to log events that are relevant for
 	 * normal operation to INFO level.
 	 */
-	public static final String ANTIDOS_LOGGER_NAME = "org.henbru.antidos.AntiDoS";
+	public static final String ANTIDOS_LOGGER_NAME = "org.construtivo.antidos.AntiDoS";
 
 	/**
 	 * The HTTP response status code that is set during a rejection due to too many
@@ -77,7 +77,7 @@ public class AntiDoSValve extends ValveBase {
 	 * This name of the request attribute that is set by the valve to mark requests
 	 * due to too many accesses in {@link #MARKING_MONITOR_MODE}
 	 */
-	public static final String MARKING_ATTRIBUTE_NAME = "org.henbru.antidos.AntiDoS";
+	public static final String MARKING_ATTRIBUTE_NAME = "org.construtivo.antidos.AntiDoS";
 
 	public AntiDoSValve() {
 		super(true);

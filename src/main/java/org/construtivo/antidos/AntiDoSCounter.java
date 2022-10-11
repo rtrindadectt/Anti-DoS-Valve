@@ -1,4 +1,4 @@
-package org.henbru.antidos;
+package org.construtivo.antidos;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
